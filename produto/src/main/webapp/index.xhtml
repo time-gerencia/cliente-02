@@ -34,6 +34,10 @@
             margin-left: auto; 
             margin-right : auto;
         }
+        
+        .orangeField{
+        color: orange;
+        }
     </style>
 </h:head>
     <h:body class="body">
@@ -41,10 +45,10 @@
         <h2>Produto</h2>
     
     <h:form>
-    	<label>Código da cidade:</label>
+    	<label class="orangeField">Código da cidade:</label>
         <h:inputText value="#{jsfCidade.codigo}" />
         <br/><br/>
-        <label>Nome da cidade:</label>
+        <label class="orangeField">Nome da cidade:</label>
         <h:inputText value="#{jsfCidade.nome}" />
         <br/>
         <br/>
@@ -53,7 +57,7 @@
     </div>
 
     <div class="table table-striped">
-<h2>Produtos adicionados</h2><br/>
+<h2 class="orangeField">Produtos adicionados</h2><br/>
     <h:form>
         <h:dataTable value="#{jsfCidade.all}" var="cid">
             <h:column>
@@ -67,7 +71,7 @@
     </div>
         
     
-    <table class="table">
+    <table class="table orangeField">
         <tr><th colspan="2"><h2>Integrantes</h2></th></tr>
         <tr>
             <th>Alunos</th>

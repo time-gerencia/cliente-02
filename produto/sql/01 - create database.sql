@@ -1,8 +1,8 @@
--- Database: gcdb
+-- Database: cli02
 
--- DROP DATABASE gcdb;
+-- DROP DATABASE cli02;
 
-CREATE DATABASE gcdb
+CREATE DATABASE cli02
   WITH OWNER = postgres
        ENCODING = 'UTF8'
        TABLESPACE = pg_default

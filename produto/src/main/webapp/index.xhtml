@@ -53,6 +53,10 @@
         <br/>
         <br/>
         <h:commandButton action="#{jsfCidade.persist()}" value="Salvar" />
+		<br/>
+         <br/>
+         
+         <h:outputText style="color:red" value="#{jsfCidade.error}" />
     </h:form>
     </div>
 
@@ -71,7 +75,7 @@
     </div>
         
     
-    <table class="table orangeField">
+    <table class="table">
         <tr><th colspan="2"><h2>Integrantes</h2></th></tr>
         <tr>
             <th>Alunos</th>
